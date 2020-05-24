@@ -34,6 +34,7 @@ KyberNetworkProxyInterface.tradeWithHint(
       "PERM"
 );
 ```
+It is using Kyber's tradeWithHint to use Kyber's affiliate program. You can use swapTokenToToken instead.
 
 ### Ref
 - Flashloan Tutorial - https://github.com/peppersec/flashloan-tutorial
