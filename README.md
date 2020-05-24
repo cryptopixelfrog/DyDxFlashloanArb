@@ -41,3 +41,5 @@ It is using Kyber's tradeWithHint to use Kyber's affiliate program. You can use 
 - DyDx Documentation - https://docs.dydx.exchange/#/contracts
 - DyDx Solo - https://github.com/dydxprotocol/solo
 - money-lego - https://money-legos.studydefi.com/#/dydx
+
+If you are interested in Aave's Flashloan, then check this out - https://github.com/cryptopixelfrog/flashloaner
