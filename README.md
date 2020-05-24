@@ -43,5 +43,5 @@ It is using Kyber's tradeWithHint to use Kyber's affiliate program. You can use 
 - money-lego - https://money-legos.studydefi.com/#/dydx
 
 ## Other Dapps
-If you are interested in Aave's Flashloan, then check this out - https://github.com/cryptopixelfrog/flashloaner
-Aave's Flashloan based arbitrage app is also here - https://github.com/cryptopixelfrog/ArbSlippageTrading
+- If you are interested in Aave's Flashloan, then check this out - https://github.com/cryptopixelfrog/flashloaner
+- Aave's Flashloan based arbitrage app is also here - https://github.com/cryptopixelfrog/ArbSlippageTrading
