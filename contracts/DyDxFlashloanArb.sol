@@ -88,10 +88,10 @@ contract DyDxFlashloanArb is DyDxFlashLoan{
                                             srcToken, // source ERC20 token contract address
                                             srcQty, // source ERC20 token amount in its token decimals
                                             ETH_TOKEN_ADDRESS, // destination ERC20 token contract address
-                                            address(0x174B3C5f95c9F27Da6758C8Ca941b8FFbD01d330), // recipient address for destination ERC20 token
+                                            address(this), // recipient address for destination ERC20 token
                                             10**28, // A limit on the amount of dest tokens
                                             minConversionRate, // The minimal conversion rate. If actual rate is lower, trade is canceled.
-                                            address(0x174B3C5f95c9F27Da6758C8Ca941b8FFbD01d330), // wallet address to send part of the fees to
+                                            address(0x0), // wallet address to send part of the fees to
                                             "PERM"
                                           );
 
@@ -105,7 +105,7 @@ contract DyDxFlashloanArb is DyDxFlashLoan{
                                             address(this), // recipient address for destination ERC20 token
                                             10**30, // A limit on the amount of dest tokens
                                             _wbtcexpectedRate, // The minimal conversion rate. If actual rate is lower, trade is canceled.
-                                            address(0x174B3C5f95c9F27Da6758C8Ca941b8FFbD01d330), // wallet address to send part of the fees to
+                                            address(0xx), // wallet address to send part of the fees to
                                             "PERM"
                                           );
   }
